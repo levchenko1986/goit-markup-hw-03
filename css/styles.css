@@ -254,7 +254,6 @@ li {
 }
 .projects-container {
     width: 1200px;
-    height: 1360px;
     margin: 0 215px 0 215px;
     padding: 94px 0 94px 0;
 }
@@ -269,7 +268,6 @@ li {
 }
 .projects-box {
     margin: 15px 0 15px 0;
-    /* border: 1px solid #EEEEEE; */
     padding: 0;
 }
 .project-box-border {
