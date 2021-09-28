@@ -34,14 +34,6 @@ li {
 .currentlink {
     color: var(--logo-color);
 }
-/* hr {
-    position: relative;
-    height: 1px;
-    background-color: #ececec;
-    color: #ececec;
-    border: none;
-    margin: 0; 
-} */
 .head {
     position: relative;
     display: flex;
@@ -103,7 +95,7 @@ li {
     padding-right: 0;
 }
 .lists {
-    white-space:nowrap;
+    white-space: nowrap;
 }
 .basic {
     position: relative;
@@ -139,6 +131,11 @@ li {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+.order:hover {
+    background-color: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 .btn-menu {
     display: flex;
     justify-content: center;
@@ -164,7 +161,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 215px 0 215px;
     width: 1170px;
     margin-top: 94px;
@@ -187,6 +184,7 @@ li {
     line-height: 1.7;
     letter-spacing: 0.3px;
     color: var(--text-grey);
+    box-sizing: content-box;
 }
 .directions {
     width: 1170px;
@@ -328,14 +326,14 @@ address {
 }
 .mail-opacity {
     margin-top: 9px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 }
 .nonedisplay {
     display: none; /* скрытый элемент */
