@@ -2,7 +2,21 @@ body {
     font-family: roboto, sans-serif;
     color: #212121;
     margin: 0;
-    width: 1600px;
+    width: 100%;
+}
+h1,
+h2,
+h3,
+p {
+	margin-top: 0;
+}
+h2 {
+    margin-bottom: 50px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 :root {
     --logo-color: #2196F3;
@@ -27,6 +41,8 @@ a {
 }
 li {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 .lists {
     padding: 32px 25px 32px 25px;
@@ -35,10 +51,6 @@ li {
     color: var(--logo-color);
 }
 .head {
-    position: relative;
-    display: flex;
-    height: 80px;
-    padding: 0 215px 0 215px;
     border-bottom: #ececec solid 1px;
 }
 .head-nav {
@@ -46,18 +58,20 @@ li {
     justify-content: space-between;
     width: 100%;
 }
+.had-height {
+    padding: 0;
+}
 .head-nav-logo {
-    position: absolute;
     margin: 24px 0 25px 0;
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 0;
-    line-height: 1.4;
+    line-height: 1.19;
 }
 .logo-color-web {
     color: var(--logo-color);
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     margin-right: 0;
     padding-right: 0;
@@ -73,14 +87,11 @@ li {
 .head-nav-menu {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     position: absolute;
     margin: 32px auto 32px 238px;
     font-weight: 500;
     font-size: 14px;
-    text-align: center;
-    align-items: center;
-    line-height: 1.2;
+    line-height: 1.14;
     padding: 0;
 }
 .mail {
@@ -91,26 +102,24 @@ li {
     font-size: 14px;
     margin-top: 32px;
     margin-bottom: 32px;
-    line-height: 1.2;
+    line-height: 1.14;
     padding-right: 0;
 }
 .lists {
     white-space: nowrap;
 }
 .basic {
-    position: relative;
     background-color: var(--background-grey);
-    height: 600px;
+    padding: 200px 0 200px 0;
 }
 .name-first {
     color: #fff;
+    width: 696px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.4;
-    width: 696px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
     text-transform: uppercase;
@@ -121,7 +130,7 @@ li {
     align-items: center;
     margin:0 auto;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     padding: 10px 32px 10px 32px;
     height: 50px;
@@ -151,52 +160,50 @@ li {
     font-size: 16px;
     border: 0;
     height: 38px;
-    line-height: 1.5;
+    line-height: 1.62;
     cursor: pointer;
     margin: 0 -17px;
     border-radius: 4px;
     transition: 0.1s linear;
 }
+.quality  {
+    padding: 94px 0 94px 0;
+}
+.specialists {
+    padding: 94px 0 94px 0;
+}
+.container-general {
+    padding: 94px 0 94px 0;
+}
 .quality-box {
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
-    align-items: flex-start;
-    margin: 0 215px 0 215px;
-    width: 1170px;
-    margin-top: 94px;
     padding: 0;
-}
-.quality {
-    width: 270px;
-    padding: 15px;
+    margin: 0;
 }
 .quality-heading {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.14;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 .quality-text {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.3px;
     color: var(--text-grey);
     box-sizing: content-box;
 }
 .directions {
-    width: 1170px;
-    margin: 0 215px 0 215px;
-    padding: 0 0 94px 0;
+    margin: 0 auto;
+
 }
 .directions-name {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    margin-top: 79px;
-    margin-bottom: 50px;
 }
 .directions-box {
     display: flex;
@@ -204,7 +211,6 @@ li {
     align-content: space-between;
     align-items: center;
     text-align:center;
-    width: 1170px;
     padding: 0;
     margin: 0;
 }
@@ -213,24 +219,21 @@ li {
 }
 .specialists {
     background-color: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
+
 }
 .specialists-top {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    margin: 0 auto;
 }
 .specialists-box{
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     align-items: center;
-    text-align:center;
-    width: 1170px;
+    text-align: center;
     padding: 0;
-    margin: 50px 215px 0 215px;
+    margin: 0;
 }
 .specialists-img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -240,20 +243,23 @@ li {
 .specialists-heding {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
+    margin-top: 30px;
 }
 .specialists-text {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.19;
     text-align: center;
     color: var(--text-grey);
 }
-.projects-container {
+.container {
     width: 1200px;
-    margin: 0 215px 0 215px;
-    padding: 94px 0 94px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .projects {
     display: flex;
@@ -269,7 +275,7 @@ li {
     padding: 0;
 }
 .project-box-border {
-    padding-top: 18px;
+    padding-top: 20px;
     margin-top: -4px;
     border-top: none;
     border-right: 1px solid #EEEEEE;
@@ -278,6 +284,7 @@ li {
 }
 .projects-heading {
     margin-top: 0;
+    margin-bottom: 4px;
     padding-left: 24px;
     font-size: 18px;
     line-height: 2;
@@ -285,53 +292,48 @@ li {
 }
 .projects-text {
     padding-left: 24px;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.88;
     color: var(--text-grey);
 }
 footer {
     display: block;
     background: var(--background-grey);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0 60px 0;
 }
 .logo-footer {
-    margin: 60px 1240px 60px 215px;
+
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 0;
 }
 .logo-footer span {
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.19;
 }
 .contacts {
     margin-top: 20px;
     margin-bottom: 0;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 address {
-    width: 231px;
-    height: 81px;
-    margin-left: 215px;
-    line-height: 1.7;
+    line-height: 1.71;
 }
 .mail-opacity {
     margin-top: 9px;
-    /* opacity: 0.6; */
     text-decoration: none;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
