@@ -14,26 +14,23 @@
 <body>
     <header class="head">
         <div class="container">
-            <section class="had-height">
-                <div class="head-container">
-                    <h1 class="nonedisplay">WebStudio</h1>
-                    <nav class="head-nav">
-                        <a class="head-nav-logo link" href="index.html">
-                            <span class="logo-color-web">Web</span>
-                            <span class="logo-color-top">Studio</span>
-                        </a>
-                        <ul class="head-nav-menu  list">
-                            <li class="currentlink list"><a class="lists link" href="index.html">Студия</a></li>
-                            <li><a class="lists link" href="portfolio.html">Портфолио</a></li>
-                            <li><a class="lists link" href="#">Контакты</a></li>
-                        </ul>
-                    </nav>
-                    <ul class="mail list">
-                        <li><a class="lists link" href="#">info@devstudio.com</a></li>
-                        <li><a class="lists link" href="#">+38 096 111 11 11</a></li>
+            <div class="head-container">
+                <nav class="head-nav">
+                    <a class="head-nav-logo link" href="index.html">
+                        <span class="logo-color-web">Web</span>
+                        <span class="logo-color-top">Studio</span>
+                    </a>
+                    <ul class="head-nav-menu  list">
+                        <li class="currentlink list"><a class="lists link" href="index.html">Студия</a></li>
+                        <li><a class="lists link" href="portfolio.html">Портфолио</a></li>
+                        <li><a class="lists link" href="#">Контакты</a></li>
                     </ul>
-                </div>
-            </section>
+                </nav>
+                <ul class="mail list">
+                    <li><a class="lists link" href="#">info@devstudio.com</a></li>
+                    <li><a class="lists link" href="#">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -48,19 +45,19 @@
                 <ul class="quality-box">
                     <li class="quality-list list">
                         <h3 class="quality-heading">Внимание к деталям</h3>
-                        <p class="quality-text">Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
+                        <p class="quality-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="quality-list list">
                         <h3 class="quality-heading">Пунктуальность</h3>
-                        <p class="quality-text">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
+                        <p class="quality-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
                     <li class="quality-list list">
                         <h3 class="quality-heading">Планирование</h3>
-                        <p class="quality-text">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
+                        <p class="quality-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li >
                     <li class="quality-list list">
                         <h3 class="quality-heading">Современные технологии</h3>
-                        <p class="quality-text">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
+                        <p class="quality-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -87,23 +84,31 @@
                 <ul class="specialists-box">
                     <li class="specialists-img list">
                         <img src="images/product_designer.jpg" alt="промышленный-дизайнер" width="270">
-                        <h3 class="specialists-heding">Игорь Демьяненко</h3>
-                        <p class="specialists-text">Product Designer</p>
+                        <div class="specialists-name">
+                            <h3 class="specialists-heding">Игорь Демьяненко</h3>
+                            <p class="specialists-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="specialists-img list">
                         <img src="images/frontend_developer.jpg" alt="фронтенд-разработчик" width="270">
-                        <h3 class="specialists-heding">Ольга Репина</h3>
-                        <p class="specialists-text">Frontend Developer</p>
+                        <div class="specialists-name">
+                            <h3 class="specialists-heding">Ольга Репина</h3>
+                            <p class="specialists-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="specialists-img list">
                         <img src="images/marketing.jpg" alt="маркетолог" width="270">
-                        <h3 class="specialists-heding">Николай Тарасов</h3>
-                        <p class="specialists-text">Marketing</p>
+                        <div class="specialists-name">
+                            <h3 class="specialists-heding">Николай Тарасов</h3>
+                            <p class="specialists-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="specialists-img list">
                         <img src="images/ui_designer.jpg" alt="дизайнер-интерфейса" width="270">
-                        <h3 class="specialists-heding">Михаил Ермаков</h3>
-                        <p class="specialists-text">UI Designer</p>
+                        <div class="specialists-name">
+                            <h3 class="specialists-heding">Михаил Ермаков</h3>
+                            <p class="specialists-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -111,14 +116,16 @@
     </main>
     <footer>
         <div class="container">
-            <a class="logo-footer link" href="index.html">
-                <span class="logo-color-web">Web</span>
-                <span class="logo-color-dwn">Studio</span>
-            </a>
-                <address><p class="contacts">г. Киев Леси Украинки, 26</p>
+            <div class="footer-box">
+                <a class="logo-footer link" href="index.html">
+                    <span class="logo-color-web">Web</span>
+                    <span class="logo-color-dwn">Studio</span>
+                </a>
+                <address><p class="contacts">г. Киев, пр-т Леси Украинки, 26</p>
                     <a class="mail-opacity link" href="#">info@example.com</a><br>
                     <a class="mail-opacity link" href="#">+38 096 111 11 11</a>
-            </address>
+                </address>
+            </div>
         </div>
     </footer>
 </body>
