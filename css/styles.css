@@ -57,17 +57,24 @@ img {
 .head-nav {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 .had-height {
-    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0 25px 0;
+}
+.head-container {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
 }
 .head-nav-logo {
-    margin: 24px 0 25px 0;
     font-family: Raleway;
     font-weight: 700;
     font-size: 0;
     line-height: 1.19;
+    margin-right: 93px;
 }
 .logo-color-web {
     color: var(--logo-color);
@@ -88,8 +95,7 @@ img {
 .head-nav-menu {
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    margin: 32px auto 32px 238px;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -101,8 +107,6 @@ img {
     align-items: center;
     font-weight: 500;
     font-size: 14px;
-    margin-top: 32px;
-    margin-bottom: 32px;
     line-height: 1.14;
     padding-right: 0;
 }
