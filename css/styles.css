@@ -23,7 +23,7 @@ img {
     --text-grey: #757575;
     --background-grey: #2F303A;
 }
-a {
+.link {
     text-decoration: none;
     color: inherit;
 }
@@ -39,13 +39,14 @@ a {
     background-color: var(--logo-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-li {
-    list-style-type: none;
+.list{
+    list-style: none;
     padding-left: 0;
     margin: 0;
 }
 .lists {
     padding: 32px 25px 32px 25px;
+    white-space: nowrap;
 }
 .currentlink {
     color: var(--logo-color);
@@ -104,9 +105,6 @@ li {
     margin-bottom: 32px;
     line-height: 1.14;
     padding-right: 0;
-}
-.lists {
-    white-space: nowrap;
 }
 .basic {
     background-color: var(--background-grey);
@@ -198,6 +196,7 @@ li {
 }
 .directions {
     margin: 0 auto;
+    padding-bottom: 94px;
 
 }
 .directions-name {
@@ -269,10 +268,14 @@ li {
     flex-wrap: wrap;
     margin-top: 50px;
     padding: 0;
+    margin-bottom: 0;
 }
 .projects-box {
     margin: 15px 0 15px 0;
     padding: 0;
+}
+.projects-box:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 .project-box-border {
     padding-top: 20px;
