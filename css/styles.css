@@ -73,8 +73,9 @@ img {
 .head-nav-logo {
     font-family: Raleway;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 0;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     margin-right: 93px;
 }
 .logo-color-web {
@@ -339,7 +340,7 @@ footer {
     margin-bottom: 20px;
     font-family: Raleway;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 0;
 }
 .logo-footer span {
     font-family: Raleway;
