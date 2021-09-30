@@ -73,7 +73,7 @@ img {
 .head-nav-logo {
     font-family: Raleway;
     font-weight: 700;
-    font-size: 0;
+    font-size: 26px;
     line-height: 1.19;
     margin-right: 93px;
 }
@@ -311,7 +311,7 @@ img {
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
 }
-.projects-heading {
+.projects-sublitle {
     margin-top: 0;
     margin-bottom: 4px;
     font-size: 18px;
@@ -340,7 +340,7 @@ footer {
     margin-bottom: 20px;
     font-family: Raleway;
     font-weight: 700;
-    font-size: 0;
+    font-size: 26px;
 }
 .logo-footer span {
     font-family: Raleway;
