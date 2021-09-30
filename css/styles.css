@@ -176,8 +176,12 @@ img {
     border-radius: 4px;
     transition: 0.1s linear;
 }
+/* ------CONTAINER PADDINGS------ */
 .quality  {
     padding: 94px 0 47px 0;
+}
+.directions {
+    padding: 47px 0 94px 0;
 }
 .specialists {
     padding: 94px 0 94px 0;
@@ -213,11 +217,6 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-grey);
-}
-.directions {
-    margin: 0 auto;
-    padding-top: 47px;
-    padding-bottom: 94px;
 }
 .directions-title {
     text-align: center;
