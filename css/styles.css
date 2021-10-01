@@ -157,12 +157,10 @@ img {
 }
 
 /* ------BUTTONS------ */
-.container-btn {
-    margin-bottom: 50px;
-}
 .btn-menu {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .btn-box:not(:last-child) {
     margin-right: 8px;
